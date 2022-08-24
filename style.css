@@ -1,0 +1,17 @@
+body {
+    background-image: url('assets/background.jpg');
+    height: 500px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-header{
+    background-color: black;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+.card-body{
+    background-color: black;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
