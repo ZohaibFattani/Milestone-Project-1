@@ -1,29 +1,17 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dragon Run</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<html lang = 'en'>
+  <head>
+    <meta charset = 'UTF-8'>
+    <title>Game</title>
     <link rel="stylesheet" href="style.css">
     <script src="game.js"></script>
-    </head>
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <!--bootstrapped a card, wrapped in div -->
-<div class="introBanner">
-    <div class="card text-center">
-        <div class="card-header">
-            <h1>Welcome to Dragon Run</h1>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title"><b>Help Goku avoid his friends and train for his up-coming battle against Vegeta!</b></h5>
-          <p class="card-text"><em>Head to the trainning center located in the east district</em></p>
-        </div>
-        <!-- <div class="card-footer text-muted"> -->
-          <!-- Goku's training is in your hands now -->
-        <!-- </div> -->
-      </div>
-</div>
-    </body>
+  </head>
+  <body>
+    <div id = 'game'>
+      <div id = 'character'></div>
+      <div id = 'block'></div>
+      <!-- div that covers block from sliding off game div -->
+      <div id="white"></div>
+    </div>
+  </body>
+</html>
