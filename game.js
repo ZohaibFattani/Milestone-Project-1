@@ -66,7 +66,7 @@ setInterval(function(){
     //checks if block is on top of character
     if(characterLeft == blockLeft &&
         blockTop<500 && blockTop>300){
-            alert('Game Over. Score:'+ counter)
+//             alert('Game Over. Score:'+ counter)
             //removes animation 
             block.style.animation = 'none';
     }
