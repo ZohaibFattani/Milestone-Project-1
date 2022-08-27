@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: black;
+}
 #game{
     width: 300px;
     height: 500px;
@@ -24,7 +27,7 @@
     position: absolute;
     width: 300px;
     height: 130px;
-    background-color: white;
+    background-color: black;
 }
 #block{
     /* width: 100px; */
@@ -33,7 +36,7 @@
     /* background-color: black; */
     position: relative;
   /* calls the animation */
-    animation: slide 5s infinite linear;
+    animation: slide 1s infinite linear;
 }
 /* animation to slide down */
 @keyframes slide{
