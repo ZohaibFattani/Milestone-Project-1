@@ -2,32 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>game</title>
+    <title>UI-Template</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <h1>Welcome to Dragon Run</h1>
-  <h2>Use the left and right key arrows to avoid the orb ball!</h2>
-    <div id="game">
-        <div id="left"></div>
-        <div id="right">
-          <!-- <img src="assets/GokuStance.webp" alt="Goku Standing" style ="float:right;width:300px;height:300px;"> -->
+        <div id = "nav">
+            <p>NAV</p>
         </div>
-        <div id="block">
-          <img src="assets/Orb.webp" alt="OrbBall" width="100" height="100">
+        <div id = "intro">
+            <p>INTRO</p>
         </div>
-        <div id="character">
-          <img src="assets/GokuSuper.webp" alt="Goku" width="100" height="100">
+    <div class = "main">
+        <div id = "leftSide">
+            <p>Hello</p>
         </div>
-        <!--div for left side of webpage -->
-        <div id="Lleft">
-          <!-- <img src="assets/GokuStance.webp" alt="Goku Standing" style ="float:left;width:300px;height:300px;"> -->
+        <div id="game">
+          <div id="left"></div>
+          <div id="right">
+            <!-- <img src="assets/GokuStance.webp" alt="Goku Standing" style ="float:right;width:300px;height:300px;"> -->
+          </div>
+          <div id="block">
+            <img src="assets/Orb.webp" alt="OrbBall" width="100" height="100">
+          </div>
+          <div id="character">
+            <img src="assets/GokuSuper.webp" alt="Goku" width="100" height="100">
+          </div>
+         <!-- div that covers block from sliding off game div -->
+          <div id="white">
+            <!-- <img src="assets/grass.webp" class="grass" alt="grass" style ="width: 300px; height: 145px; position: fixed; top: 520px;"> -->
+          </div>
+      </div>
+        <div id = "rightSide">
+            <p>Hello</p>
         </div>
-       <!-- div that covers block from sliding off game div -->
-        <div id="white">
-          <img src="assets/grass.webp" class="grass" alt="grass" style ="width: 300px; height: 145px; position: fixed; top: 520px;">
-        </div>
+    </div>
+    <div id = "bottom">
+        <p>BOTTOM</p>
     </div>
 </body>
 <script src="game.js"></script>

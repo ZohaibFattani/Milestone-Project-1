@@ -3,20 +3,15 @@
     margin: 0;
 }
 body{
-    background-color: black;
-    background-image: url("assets/background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: white;
 }
 #game{
     width: 300px;
     height: 500px;
     border: 1px solid black;
-    border-style: outset;
     margin: auto;
   /* white div covers border, so adding border box */
     box-sizing: border-box;
-    background-color: transparent;
 }
 #character{
     /* width: 100px; */
@@ -60,23 +55,36 @@ body{
     height: 500px;
     /* border: 10px solid red; */
 }
-#Lleft{
-    width:50%;
-    position: fixed;
-    right: 950px;
-    bottom: 400px;
-    height: 500px;
-    /* border: 10px solid green; */
-}
 #right{
     left: 50%;
 }
-h1{
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+#nav{
+    height: 100px;
+    width: 100 px;
+    border: 10px solid black;
 }
-h2{
-    text-align:center;
-    color:black;
+#intro{
+    height: 100px;
+    width: 100 px;
+    border: 10px solid red;
+}
+#leftSide{
+    height: 100px;
+    width: 100 px;
+    border: 10px solid blue;
+}
+#rightSide{
+    height: 100px;
+    width: 100 px;
+    border: 10px solid green;
+    
+}
+#bottom{
+    height: 100px;
+    width: 100 px;
+    border: 10px solid purple;
+}
+.main{
+    display: flex;
+    position: relative;
 }

@@ -72,6 +72,7 @@ document.addEventListener("keydown", event => {
   
   
   
-  //for iphone
+  
   document.getElementById("right").addEventListener("touchstart", moveRight);
   document.getElementById("left").addEventListener("touchstart", moveLeft);
+  
