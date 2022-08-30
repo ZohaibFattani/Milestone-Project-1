@@ -3,7 +3,10 @@
     margin: 0;
 }
 body{
-    background-color: white;
+    background-color: black;
+    /* background-image: url("assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 #game{
     width: 300px;
@@ -12,6 +15,7 @@ body{
     margin: auto;
   /* white div covers border, so adding border box */
     box-sizing: border-box;
+    background-color: blue;
 }
 #character{
     /* width: 100px; */
@@ -59,30 +63,37 @@ body{
     left: 50%;
 }
 #nav{
-    height: 100px;
-    width: 100 px;
+    height: 100;
+    width: 100;
     border: 10px solid black;
+    background-color: black;
 }
 #intro{
-    height: 100px;
-    width: 100 px;
+    height: 100;
+    width: 100;
     border: 10px solid red;
+    text-align: center;
+    background-color: black;
+    color: orange;
 }
 #leftSide{
-    height: 100px;
-    width: 100 px;
+    height: 100;
+    width: 100;
     border: 10px solid blue;
+    background-color: black;
 }
 #rightSide{
-    height: 100px;
-    width: 100 px;
+    height: 100;
+    width: 100;
     border: 10px solid green;
-    
+    background-color: black;
 }
+
 #bottom{
-    height: 100px;
-    width: 100 px;
+    height: 100;
+    width: 100;
     border: 10px solid purple;
+    background-color: black;
 }
 .main{
     display: flex;
