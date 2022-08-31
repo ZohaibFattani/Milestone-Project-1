@@ -11,17 +11,25 @@
 <body>
         <div id = "nav">
           <nav class="nav nav-pills flex-column flex-sm-row">
-            <a class="flex-sm-fill text-sm-center nav-link" href="#">Home</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="#">Goku</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="#">Vegeta</a>
+            <a class="flex-sm-fill text-sm-center nav-link" style="border: 10px solid black; color: black;" href="#">Home</a>
+            <a class="flex-sm-fill text-sm-center nav-link" style="border: 10px solid black; color: black;" href="#">Goku</a>
+            <a class="flex-sm-fill text-sm-center nav-link" style="border: 10px solid black; color: black;" href="#">Vegeta</a>
           </nav>
         </div>
         <div id = "intro">
             <h1>Welcome to Dragon Run</h1>
+            <details>
+              <summary>How To Play</summary>
+              <p>Use the right and left arrow keys to avoid the orb ball from hitting Goku.</p>
+            </details>
         </div>
     <div class = "main">
         <div id = "leftSide">
           <img src="assets/goku.png" alt="Goku">
+          <details>
+            <summary>Meet Goku!</summary>
+            <p>Goku is introduced as an eccentric, monkey-tailed boy<br> who practices martial arts and possesses superhuman<br> strength. He meets Bulma and joins her on a journey<br> to find the seven wish-granting Dragon Balls.<br> Along the way, he finds new friends who follow<br> him on his journey to become a stronger fighter.</p>
+          </details>
         </div>
         <div id="game">
           <div id="left">
@@ -41,11 +49,14 @@
       </div>
         <div id = "rightSide">
           <img src="assets/vegeta.png" alt="Vegeta">
+          <details>
+            <summary>Meet Vegeta!</summary>
+            <p>VEGETA</p>
+          </details>
         </div>
     </div>
     <div id = "bottom">
-        <p>BOTTOM</p>
     </div>
 </body>
-<script src="game.js"></script>
+<script src="game.js" ></script>
 </html>
