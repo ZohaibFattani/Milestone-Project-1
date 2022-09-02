@@ -2,18 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>UI-Template</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Dragon Run</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="jumbotron">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Zo's Arcade</h1>
+        <p class="lead">Help Goku avoid the Orbs!</p>
+      </div>
+    </div>
+  </div>
         <div id = "nav">
           <nav class="nav nav-pills flex-column flex-sm-row">
-            <a class="flex-sm-fill text-sm-center nav-link" style="border: 10px solid black; color: black;" href="#">Home</a>
-            <a class="flex-sm-fill text-sm-center nav-link" style="border: 10px solid black; color: black;" href="#">Goku</a>
-            <a class="flex-sm-fill text-sm-center nav-link" style="border: 10px solid black; color: black;" href="#">Vegeta</a>
+            <a class="flex-sm-fill text-sm-center nav-link" style="border: 10px solid black; color:white;" href="home.html">Home</a>
+            <a class="flex-sm-fill text-sm-center nav-link" style="border: 10px solid black; color:white;" href="index.html">Dragon Run</a>
+            <a class="flex-sm-fill text-sm-center nav-link" style="border: 10px solid black; color:white;" href="mario.html">Mario World</a>
           </nav>
         </div>
         <div id = "intro">
@@ -22,14 +30,10 @@
               <summary>How To Play</summary>
               <p>Use the right and left arrow keys to avoid the orb ball from hitting Goku.</p>
             </details>
+            <button type="button" style="background-color: orange; border: 5px solid red;" onclick="window.location.href='index.html'">Play Again!</button>
         </div>
     <div class = "main">
         <div id = "leftSide">
-          <img src="assets/goku.png" alt="Goku">
-          <details>
-            <summary>Meet Goku!</summary>
-            <p>Goku is introduced as an eccentric, monkey-tailed boy<br> who practices martial arts and possesses superhuman<br> strength. He meets Bulma and joins her on a journey<br> to find the seven wish-granting Dragon Balls.<br> Along the way, he finds new friends who follow<br> him on his journey to become a stronger fighter.</p>
-          </details>
         </div>
         <div id="game">
           <div id="left">
@@ -48,11 +52,6 @@
           </div>
       </div>
         <div id = "rightSide">
-          <img src="assets/vegeta.png" alt="Vegeta">
-          <details>
-            <summary>Meet Vegeta!</summary>
-            <p>VEGETA</p>
-          </details>
         </div>
     </div>
     <div id = "bottom">
